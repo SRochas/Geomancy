@@ -1,0 +1,62 @@
+{
+  "FormKey": "000ED3:Geomancy_Gust_Spell-0_0_1.esp",
+  "VersionControl": 7959,
+  "EditorID": "GMNGustSpellScript",
+  "Fields": {
+    "MetadataSummary": {
+      "RefCount": 2,
+      "VariableCount": 5,
+      "Type": "MagicEffect"
+    },
+    "CompiledScript": "0x1D0000001000060011002500000015000B0066050006002058CE1000001C0001006E110A0002007202006E2800000011000000",
+    "SourceCode": "Scn GMNGustSpellScript\r\n\r\nref target\r\nshort targetHealth\r\n\r\nBegin ScriptEffectStart\r\n    set target to GetSelf\r\n    player.PushActorAway target 40\r\nEnd",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 5,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "0x100",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x8000",
+            "0x10000",
+            "0x40000",
+            "0x80000",
+            "0x400000",
+            "0x800000",
+            "0x1000000",
+            "0x4000000",
+            "0x8000000",
+            "0x40000000",
+            "0x80000000",
+            "0x0"
+          ],
+          "Unknown2": -842150451
+        },
+        "Name": "target"
+      },
+      {
+        "Data": {
+          "Index": 4,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "IsLongOrShort"
+          ]
+        },
+        "Name": "targetHealth"
+      }
+    ],
+    "References": [
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "000014:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptVariableReference",
+        "VariableIndex": 5
+      }
+    ]
+  }
+}

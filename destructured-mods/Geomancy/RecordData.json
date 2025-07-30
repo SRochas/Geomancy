@@ -1,0 +1,17 @@
+{
+  "SpriggitSource": {
+    "PackageName": "Spriggit.Json.Oblivion",
+    "Version": "0.38.7"
+  },
+  "ModKey": "Geomancy_Gust_Spell-0_0_1.esp",
+  "GameRelease": "Oblivion",
+  "ModHeader": {
+    "Author": "DEFAULT",
+    "MasterReferences": [
+      {
+        "Master": "Oblivion.esm",
+        "FileSize": 0
+      }
+    ]
+  }
+}
