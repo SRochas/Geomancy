@@ -1,5 +1,13 @@
 {
   "version": 1,
   "isRoot": true,
-  "tools": {}
+  "tools": {
+    "spriggit.json.oblivion": {
+      "version": "0.38.7",
+      "commands": [
+        "Spriggit.Json.Oblivion"
+      ],
+      "rollForward": false
+    }
+  }
 }

@@ -1,0 +1,63 @@
+{
+  "FormKey": "000ED5:Geomancy_Gust_Spell-0_0_1.esp",
+  "EditorID": "GMNGust",
+  "Name": "Gust",
+  "Data": {
+    "Cost": 11,
+    "Level": "Novice",
+    "Flag": [
+      "ManualSpellCost",
+      "ScriptEffectAlwaysApplies",
+      "0x100",
+      "0x400",
+      "0x800",
+      "0x4000",
+      "0x8000",
+      "0x10000",
+      "0x40000",
+      "0x80000",
+      "0x400000",
+      "0x800000",
+      "0x1000000",
+      "0x4000000",
+      "0x8000000",
+      "0x40000000",
+      "0x80000000",
+      "0x0"
+    ]
+  },
+  "Effects": [
+    {
+      "Data": {
+        "MagicEffect": "SEFF",
+        "Area": 10,
+        "Type": "Target",
+        "ActorValue": "Health"
+      },
+      "ScriptEffect": {
+        "Data": {
+          "Script": "000ED3:Geomancy_Gust_Spell-0_0_1.esp",
+          "MagicSchool": "Destruction",
+          "Flags": [
+            "0x1000",
+            "0x4000",
+            "0x20000",
+            "0x40000",
+            "0x100000",
+            "0x400000"
+          ]
+        },
+        "Name": "Wind Gust"
+      }
+    },
+    {
+      "Data": {
+        "MagicEffect": "FRDG",
+        "Magnitude": 10,
+        "Area": 10,
+        "Type": "Target",
+        "ActorValue": "Health"
+      }
+    }
+  ]
+}
