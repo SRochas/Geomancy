@@ -1,0 +1,13 @@
+{
+  "FormKey": "005EED:Oblivion.esm",
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": "1, 14",
+  "Regions": [
+    "07B864:Oblivion.esm",
+    "094161:Oblivion.esm",
+    "1194AF:Oblivion.esm",
+    "06EF2F:Oblivion.esm"
+  ]
+}

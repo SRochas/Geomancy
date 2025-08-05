@@ -1,0 +1,26 @@
+{
+  "FormKey": "005ECE:Oblivion.esm",
+  "EditorID": "ICTalosBridge03",
+  "Flags": [
+    "HasWater"
+  ],
+  "Grid": "1, 15",
+  "Regions": [
+    "06EF2F:Oblivion.esm",
+    "07B864:Oblivion.esm",
+    "094161:Oblivion.esm",
+    "1194AF:Oblivion.esm"
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000ED3:GMN_01.esp",
+      "EditorID": "GMNWindGateUnderwater01",
+      "Base": "000ED4:GMN_01.esp",
+      "Location": {
+        "Position": "5701.9136, 62547.93, -723.245",
+        "Rotation": "1.5707964, 3.1415927, 0"
+      }
+    }
+  ]
+}

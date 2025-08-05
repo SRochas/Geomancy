@@ -1,0 +1,16 @@
+{
+  "FormKey": "000ED4:GMN_01.esp",
+  "EditorID": "GMNWindGate",
+  "Name": "Wind Gate",
+  "Model": {
+    "File": "Oblivion\\Gate\\OblivionArchGate01.NIF",
+    "BoundRadius": 4918.8677
+  },
+  "Script": "1778C5:Oblivion.esm",
+  "OpenSound": "014EB5:Oblivion.esm",
+  "CloseSound": "014EB6:Oblivion.esm",
+  "LoopSound": "0912BB:Oblivion.esm",
+  "Flags": [
+    "OblivionGate"
+  ]
+}
