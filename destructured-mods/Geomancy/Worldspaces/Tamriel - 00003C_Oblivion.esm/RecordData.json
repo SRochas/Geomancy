@@ -1,0 +1,14 @@
+{
+  "FormKey": "00003C:Oblivion.esm",
+  "EditorID": "Tamriel",
+  "Water": "000018:Oblivion.esm",
+  "Icon": "Menus\\Map\\world\\Cyrodiil_Resized.dds",
+  "MapData": {
+    "UsableDimensions": "2055, 1830",
+    "CellCoordinatesNWCell": "-59, 47",
+    "CellCoordinatesSECell": "59, -58"
+  },
+  "Flags": [],
+  "ObjectBoundsMin": "-262144, -282624",
+  "ObjectBoundsMax": "286720, 245760"
+}

@@ -1,0 +1,135 @@
+{
+  "FormKey": "1778C5:Oblivion.esm",
+  "EditorID": "GMNWindGateScript",
+  "Fields": {
+    "MetadataSummary": {
+      "RefCount": 8,
+      "VariableCount": 4
+    },
+    "CompiledScript": "0x1D0000001000060015005F00000016000D0003000900207304002033203E3D150007007302000200203015000700730400020020301500080066030003002033301900000016000D0001000900206601002030203D3D15000B0066010006002058131100001900000011000000100008000200460000000000160014000300100020586910050001007202002031203D3D15000A007203007317000200203115000A007204006617000200203058110000190000000D1002000000110000001000060000000C02000016000F0001000B002058231000002031203D3D1E000000190000001600220001001E002058CB1000002031203D3D20583A1005000100720300203530203C20262639100A0002007203006E320000001900000016001D001C0019002058231000002030203D3D2058CB1000002030203D3D20262616000F0001000B002058281100002030203D3D13100900020002006E0100000019000000160014000800100020589510050001007205002030203D3D16001700060013002058011005000100720200203136303030203C1600250001002100207204006617002030203D3D20580110050001007202002031303030203C2026262D11050001007206001700020001000411050001007206001900000015000E0072040066170006002058CE10000019000000170002000400160029000200250020580110050001007202002039303030203E207204006617002058CE100000203D3D20262615000A007204006617000200203058110000190000001900000016000C0001000800206603002030203E150011006603000C002066030020580C100000202D18000C0006000800207302002033203C160019000400150020720200580110050001007207002035303030203C15000D007302000800207302002031202B13100900020003006E010000001C00010025100500010072080015000800660300030020313019000000190000001900000011000000",
+    "SourceCode": "scn GMNWindGateScript\r\n\r\nref mySpawnMarker\r\nshort count\r\nfloat timer\r\nshort deadCount\t\t; number of guys killed; if > 3 reset and respawn on load\r\n\r\nbegin OnLoad\r\n\t; reset count if all mine are dead\r\n\tif deadCount >= 3\r\n\t\tset count to 0\r\n\t\tset deadCount to 0\r\n\t\tset timer to 30\r\n\tendif\r\n\r\n\t; get parent marker\r\n\tif mySpawnMarker == 0\r\n\t\tset mySpawnMarker to getParentRef\r\n\tendif\r\nend\r\n\r\nbegin OnActivate\r\n\tif isActionRef player == 1\r\n\t\tset MS48.inOblivion to 1\r\n\t\t; we aren't \"near\" any gate anymore (we're in Oblivion!)\r\n\t\tset MQ00.nearOblivionGate to 0\r\n\t\tReleaseWeatherOverride\r\n\tendif\r\n\tActivate\r\nend\r\n\r\nbegin gamemode\r\n\tif getdisabled == 1\r\n\t\treturn\r\n\tendif\r\n\r\n\tif getdestroyed == 1 && getstage ms48 < 50\r\n\t\tsetstage ms48 50\r\n\tendif\r\n\r\n\t; start churning out creatures when I'm turned on\r\n\tif GetDisabled == 0 && GetDestroyed == 0\r\n\t\tif IsAnimPlaying == 0\r\n\t\t\tplaygroup specialidle 1\r\n\t\tendif\r\n\r\n\t\t; make sure weather is eeeevil gate weather\r\n\t\tif getiscurrentweather OblivionStormTamriel == 0\r\n\t\t\tif getdistance player < 16000\r\n\t\t\t\tif MQ00.nearOblivionGate == 0 && getdistance player < 1000\r\n\t\t\t\t\t; this should only happen when I come out an Oblivion gate into Tamriel -- I'm suddenly close but the \"near\" variable hasn't been set\r\n\t\t\t\t\tforceweather 15883\r\n\t\t\t\telse\r\n\t\t\t\t\tsetweather 15883\r\n\t\t\t\tendif\r\n\t\t\t\tset MQ00.nearOblivionGate to GetSelf\r\n\t\t\tendif\r\n\t\telse\r\n\t\t\tif getdistance player > 9000 && MQ00.nearOblivionGate == GetSelf\r\n\t\t\t\tset MQ00.nearOblivionGate to 0\r\n\t\t\t\tReleaseWeatherOverride\r\n\t\t\tendif\r\n\t\tendif\r\n\r\n\t\tif timer > 0\r\n\t\t\tset timer to timer - getsecondspassed\r\n\t\telseif count < 3\r\n\t\t\tif ( Player.GetDistance MS48GateSpawnMark < 5000 )\r\n\t\t\t\tset count to count + 1\r\n\t\t\t\tplaygroup forward 1\r\n\t\t\t\tmySpawnMarker.placeatme KvatchExteriorCreature \r\n\t\t\t\tset timer to 10\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nend\r\n\r\n",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 1,
+          "Unknown": "0x000000000000000000000000"
+        },
+        "Name": "mySpawnMarker"
+      },
+      {
+        "Data": {
+          "Index": 2,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "IsLongOrShort",
+            "0x100",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x8000",
+            "0x10000",
+            "0x40000",
+            "0x80000",
+            "0x400000",
+            "0x800000",
+            "0x1000000",
+            "0x4000000",
+            "0x8000000",
+            "0x40000000",
+            "0x80000000",
+            "0x0"
+          ],
+          "Unknown2": -842150451
+        },
+        "Name": "count"
+      },
+      {
+        "Data": {
+          "Index": 3,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "0x100",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x8000",
+            "0x10000",
+            "0x40000",
+            "0x80000",
+            "0x400000",
+            "0x800000",
+            "0x1000000",
+            "0x4000000",
+            "0x8000000",
+            "0x40000000",
+            "0x80000000",
+            "0x0"
+          ],
+          "Unknown2": -842150451
+        },
+        "Name": "timer"
+      },
+      {
+        "Data": {
+          "Index": 4,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "IsLongOrShort",
+            "0x100",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x8000",
+            "0x10000",
+            "0x40000",
+            "0x80000",
+            "0x400000",
+            "0x800000",
+            "0x1000000",
+            "0x4000000",
+            "0x8000000",
+            "0x40000000",
+            "0x80000000",
+            "0x0"
+          ],
+          "Unknown2": -842150451
+        },
+        "Name": "deadCount"
+      }
+    ],
+    "References": [
+      {
+        "MutagenObjectType": "ScriptVariableReference",
+        "VariableIndex": 1
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "000014:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "0224D8:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "01E722:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "0836D5:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "015883:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "091229:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "008BFD:Oblivion.esm"
+      }
+    ]
+  }
+}

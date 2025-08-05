@@ -1,45 +1,25 @@
 {
-  "FormKey": "000ED3:Geomancy_Gust_Spell-0_0_1.esp",
-  "VersionControl": 7959,
+  "FormKey": "0015A8:GMN_01.esp",
   "EditorID": "GMNGustSpellScript",
   "Fields": {
     "MetadataSummary": {
       "RefCount": 2,
-      "VariableCount": 5,
+      "VariableCount": 2,
       "Type": "MagicEffect"
     },
-    "CompiledScript": "0x1D0000001000060011002500000015000B0066050006002058CE1000001C0001006E110A0002007202006E2800000011000000",
+    "CompiledScript": "0x1D0000001000060011002500000015000B0066010006002058CE1000001C0001006E110A0002007202006E2800000011000000",
     "SourceCode": "Scn GMNGustSpellScript\r\n\r\nref target\r\nshort targetHealth\r\n\r\nBegin ScriptEffectStart\r\n    set target to GetSelf\r\n    player.PushActorAway target 40\r\nEnd",
     "LocalVariables": [
       {
         "Data": {
-          "Index": 5,
-          "Unknown": "0x000000000000000000000000",
-          "Flags": [
-            "0x100",
-            "0x400",
-            "0x800",
-            "0x4000",
-            "0x8000",
-            "0x10000",
-            "0x40000",
-            "0x80000",
-            "0x400000",
-            "0x800000",
-            "0x1000000",
-            "0x4000000",
-            "0x8000000",
-            "0x40000000",
-            "0x80000000",
-            "0x0"
-          ],
-          "Unknown2": -842150451
+          "Index": 1,
+          "Unknown": "0x000000000000000000000000"
         },
         "Name": "target"
       },
       {
         "Data": {
-          "Index": 4,
+          "Index": 2,
           "Unknown": "0x000000000000000000000000",
           "Flags": [
             "IsLongOrShort"
@@ -55,7 +35,7 @@
       },
       {
         "MutagenObjectType": "ScriptVariableReference",
-        "VariableIndex": 5
+        "VariableIndex": 1
       }
     ]
   }
