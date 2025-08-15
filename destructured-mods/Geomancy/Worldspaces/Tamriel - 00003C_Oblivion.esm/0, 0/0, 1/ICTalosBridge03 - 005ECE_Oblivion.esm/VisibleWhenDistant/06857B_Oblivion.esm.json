@@ -1,0 +1,17 @@
+{
+  "MutagenObjectType": "PlacedObject",
+  "FormKey": "06857B:Oblivion.esm",
+  "MajorRecordFlagsRaw": 32768,
+  "OblivionMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "Base": "0176C5:Oblivion.esm",
+  "DistantLODData": {
+    "Unknown0": 0.71876705,
+    "Unknown1": -0.015797079,
+    "Unknown2": 0.69507146
+  },
+  "Location": {
+    "Position": "4384, 63424, 1024"
+  }
+}
