@@ -11,6 +11,403 @@
     "07B864:Oblivion.esm",
     "06EF2F:Oblivion.esm"
   ],
+  "PathGrid": {
+    "FormKey": "068589:Oblivion.esm",
+    "IsCompressed": true,
+    "MajorRecordFlagsRaw": 262144,
+    "VersionControl": 8219,
+    "OblivionMajorRecordFlags": [
+      "Compressed"
+    ],
+    "PointToPointConnections": [
+      {
+        "Point": "7993.541, 63421.99, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          1
+        ]
+      },
+      {
+        "Point": "7727.593, 63421.99, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          2,
+          0
+        ]
+      },
+      {
+        "Point": "7465.8, 63419.86, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          3,
+          1
+        ]
+      },
+      {
+        "Point": "7214.3955, 63414.035, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          4,
+          2
+        ]
+      },
+      {
+        "Point": "6952.472, 63415.938, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          5,
+          3
+        ]
+      },
+      {
+        "Point": "6687.1523, 63417.957, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          6,
+          4
+        ]
+      },
+      {
+        "Point": "6461.2197, 63421.734, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          7,
+          5
+        ]
+      },
+      {
+        "Point": "6191.116, 63417.875, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          8,
+          6
+        ]
+      },
+      {
+        "Point": "5935.5566, 63422.137, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          9,
+          7
+        ]
+      },
+      {
+        "Point": "5677.919, 63407.22, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          10,
+          8
+        ]
+      },
+      {
+        "Point": "5434.8257, 63417.875, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          11,
+          9
+        ]
+      },
+      {
+        "Point": "5174.7534, 63418.664, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          12,
+          10
+        ]
+      },
+      {
+        "Point": "4917.116, 63408.008, 1027",
+        "NumConnections": 2,
+        "Unused": "0xFB0000",
+        "Connections": [
+          13,
+          11
+        ]
+      },
+      {
+        "Point": "4655.323, 63418.664, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          14,
+          12
+        ]
+      },
+      {
+        "Point": "4399.7637, 63416.53, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          15,
+          13
+        ]
+      },
+      {
+        "Point": "4131.1577, 63420.71, 1027",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          14
+        ]
+      },
+      {
+        "Point": "6656, 65280, -24",
+        "NumConnections": 5,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "Point": "7168, 64768, 112",
+        "NumConnections": 1,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          18
+        ]
+      },
+      {
+        "Point": "7168, 65024, 128",
+        "NumConnections": 3,
+        "Unused": "0x96121E",
+        "Connections": [
+          16,
+          19,
+          17
+        ]
+      },
+      {
+        "Point": "7168, 65280, 144",
+        "NumConnections": 5,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          16,
+          21,
+          20,
+          18
+        ]
+      },
+      {
+        "Point": "7168, 65536, 176",
+        "NumConnections": 6,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          -1,
+          16,
+          21,
+          19
+        ]
+      },
+      {
+        "Point": "7424, 65536, 176",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          20,
+          19
+        ]
+      },
+      {
+        "Point": "7611.4917, 63171.973, 36",
+        "NumConnections": 1,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          23
+        ]
+      },
+      {
+        "Point": "7599.054, 63604.23, 72",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          24,
+          22
+        ]
+      },
+      {
+        "Point": "7664.754, 64043.5, 112",
+        "NumConnections": 2,
+        "Unused": "0x96121E",
+        "Connections": [
+          25,
+          23
+        ]
+      },
+      {
+        "Point": "7851.8174, 64324.19, 158",
+        "NumConnections": 2,
+        "Unused": "0x000000",
+        "Connections": [
+          26,
+          24
+        ]
+      },
+      {
+        "Point": "8041.95, 64602.312, 196",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          -1,
+          25
+        ]
+      },
+      {
+        "Point": "7656.0947, 61603.535, 21",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          28
+        ]
+      },
+      {
+        "Point": "7953.796, 61709.156, 52",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          29,
+          27
+        ]
+      },
+      {
+        "Point": "8029.3184, 61979.805, 68",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          30,
+          28
+        ]
+      },
+      {
+        "Point": "8000.3667, 62337.625, 60",
+        "NumConnections": 1,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          29
+        ]
+      },
+      {
+        "Point": "5669.5317, 62815.875, 1135",
+        "NumConnections": 1,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          32
+        ]
+      },
+      {
+        "Point": "5669.646, 62747.895, 1159",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          31,
+          33
+        ]
+      },
+      {
+        "Point": "5675.896, 61977.387, 1337",
+        "NumConnections": 1,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          32
+        ]
+      },
+      {
+        "Point": "5672.7524, 62630.32, 1187",
+        "Unused": "0xCDCDCD"
+      },
+      {
+        "Point": "5671.6597, 62536.527, 1209",
+        "Unused": "0xCDCDCD"
+      },
+      {
+        "Point": "5674.2666, 62410.83, 1251",
+        "Unused": "0xCDCDCD"
+      }
+    ],
+    "PGAG": "0x00003F0000",
+    "InterCellConnections": [
+      {
+        "PointID": 21,
+        "Point": "7936, 65792, 128"
+      },
+      {
+        "PointID": 20,
+        "Point": "7424, 65792, 176"
+      },
+      {
+        "PointID": 20,
+        "Point": "6912, 65792, 152"
+      },
+      {
+        "PointID": 28,
+        "Point": "8192, 61696, 96"
+      },
+      {
+        "PointID": 27,
+        "Point": "7758.718, 61231.945, 44"
+      },
+      {
+        "PointID": 26,
+        "Point": "8704, 64768, 192"
+      },
+      {
+        "PointID": 26,
+        "Point": "8192, 65024, 200"
+      },
+      {
+        "PointID": 26,
+        "Point": "8192, 64512, 200"
+      },
+      {
+        "PointID": 16,
+        "Point": "6656, 65536, 40"
+      },
+      {
+        "PointID": 19,
+        "Point": "6656, 65536, 40"
+      },
+      {
+        "PointID": 20,
+        "Point": "6656, 65536, 40"
+      },
+      {
+        "PointID": 692912143,
+        "Point": "3850.6653, 63416.45, 1027"
+      },
+      {
+        "Point": "8250.013, 63422.63, 1027"
+      },
+      {
+        "PointID": 1148911632,
+        "Point": "6912, 65792, 152"
+      }
+    ]
+  },
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -153,34 +550,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9E:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeFloor01",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.2173, 62608.945, 1138.9777",
-        "Rotation": "0.40000585, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9D:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeFloor02",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.493, 62183.566, 1263.5525",
-        "Rotation": "0.20000415, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8F:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
       "EditorID": "GMNInvisibleBridgeFloor03",
@@ -307,6 +676,30 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A99:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeRightWall01",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5542.112, 62638.344, 1322.4125",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A9E:GMN_01.esp",
+      "EditorID": "GMNInvisibleBridgeFloor01",
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.2173, 62608.945, 1138.9777",
+        "Rotation": "0.40000585, -0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0AC795:Oblivion.esm",
       "IsDeleted": true,
       "MajorRecordFlagsRaw": 32,
@@ -336,18 +729,18 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A99:GMN_01.esp",
+      "FormKey": "002A9D:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeRightWall01",
+      "EditorID": "GMNInvisibleBridgeFloor02",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
       ],
       "Base": "0852A4:Oblivion.esm",
       "Location": {
-        "Position": "5542.112, 62638.344, 1322.4125",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+        "Position": "5670.493, 62183.566, 1263.5525",
+        "Rotation": "0.20000415, -0, 0"
       }
     }
   ],
-  "VisibleWhenDistantTimestamp": 8210
+  "VisibleWhenDistantTimestamp": 8219
 }

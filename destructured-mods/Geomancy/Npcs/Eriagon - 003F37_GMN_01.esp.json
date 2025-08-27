@@ -2,7 +2,6 @@
   "FormKey": "003F37:GMN_01.esp",
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
-  "VersionControl": 8210,
   "EditorID": "Eriagon",
   "OblivionMajorRecordFlags": [
     "Compressed"
@@ -23,6 +22,7 @@
     "CalcMin": 1
   },
   "Race": "0223C8:Oblivion.esm",
+  "Script": "004625:GMN_01.esp",
   "Items": [
     {
       "Item": "064FE5:Oblivion.esm",
@@ -38,20 +38,11 @@
     }
   ],
   "AIData": {
-    "Aggression": 5,
-    "Confidence": 50,
-    "EnergyLevel": 50,
+    "Confidence": 100,
+    "EnergyLevel": 100,
     "Responsibility": 50,
     "Teaches": "Armorer"
   },
-  "AIPackages": [
-    "00C482:Oblivion.esm",
-    "00C485:Oblivion.esm",
-    "06E2FB:Oblivion.esm",
-    "00C254:Oblivion.esm",
-    "00C125:Oblivion.esm",
-    "01DC54:Oblivion.esm"
-  ],
   "Class": "02AE7A:Oblivion.esm",
   "Stats": {
     "Armorer": 10,

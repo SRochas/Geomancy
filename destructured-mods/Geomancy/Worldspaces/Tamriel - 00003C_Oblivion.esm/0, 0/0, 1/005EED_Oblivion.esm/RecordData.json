@@ -10,6 +10,152 @@
     "094161:Oblivion.esm",
     "07B864:Oblivion.esm"
   ],
+  "PathGrid": {
+    "FormKey": "0CCEFB:Oblivion.esm",
+    "IsCompressed": true,
+    "MajorRecordFlagsRaw": 262144,
+    "OblivionMajorRecordFlags": [
+      "Compressed"
+    ],
+    "PointToPointConnections": [
+      {
+        "Point": "7936, 60672, 48",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          3,
+          1,
+          7
+        ]
+      },
+      {
+        "Point": "7936, 61184, 64",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          6,
+          5,
+          0,
+          9
+        ]
+      },
+      {
+        "Point": "7675.54, 60182.53, -8",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          4,
+          3,
+          7
+        ]
+      },
+      {
+        "Point": "7936, 60416, 40",
+        "NumConnections": 5,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          4,
+          2,
+          0,
+          7
+        ]
+      },
+      {
+        "Point": "8192, 60160, 40",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          2,
+          3
+        ]
+      },
+      {
+        "Point": "8191.99, 61184.75, 88",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          6,
+          1
+        ]
+      },
+      {
+        "Point": "8192, 61440, 88",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          5,
+          1
+        ]
+      },
+      {
+        "Point": "7735.387, 60573.332, 26",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          2,
+          0,
+          3,
+          8
+        ]
+      },
+      {
+        "Point": "7598.148, 60848.285, 30",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          7,
+          9
+        ]
+      },
+      {
+        "Point": "7758.718, 61231.945, 44",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          8,
+          1
+        ]
+      }
+    ],
+    "PGAG": "0x7F00",
+    "InterCellConnections": [
+      {
+        "PointID": -1163067386,
+        "Point": "8448, 61696, 112"
+      },
+      {
+        "PointID": 9,
+        "Point": "7656.0947, 61603.535, 21"
+      },
+      {
+        "PointID": 5,
+        "Point": "8717.389, 61130.188, 84"
+      },
+      {
+        "PointID": 6,
+        "Point": "8717.389, 61130.188, 84"
+      },
+      {
+        "PointID": 4,
+        "Point": "8516.84, 60111.387, 34"
+      },
+      {
+        "PointID": 4,
+        "Point": "8461.011, 60415.56, 56"
+      },
+      {
+        "PointID": 3,
+        "Point": "8206.24, 60514.99, 60"
+      }
+    ]
+  },
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
