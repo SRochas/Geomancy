@@ -1,12 +1,26 @@
 {
   "FormKey": "004625:GMN_01.esp",
+  "VersionControl": 8450,
   "EditorID": "GMN01EriagonJumpsOffBridge",
   "Fields": {
     "MetadataSummary": {
-      "RefCount": 3
+      "RefCount": 3,
+      "VariableCount": 1
     },
-    "CompiledScript": "0x1D000000100006000000320000001600190001001500207201005801100500010072020020353030203C3D1C0001002610050001007203001900000011000000",
-    "SourceCode": "Scn GMN01EriagonJumpsOffBridge\r\n\r\nbegin gamemode\r\n\r\n\tif ( Player.GetDistance ICEriagonRef <= 500 )\r\n\t    Player.PlaySound NPCHumanGaspMale\r\n\tendif\r\n\r\nend",
+    "CompiledScript": "0x1D0000001000060000005900000016002F0003002B00207301002030203D3D20583A1005000100720200203130203D3D2026262058B91000002031203D3D2026268B10020000001C00010026100500010072030015000700730100020020311900000011000000",
+    "SourceCode": "Scn GMN01EriagonJumpsOffBridge\r\n\r\nshort isDead\r\n\r\nbegin gamemode\r\n\r\n\tif ( isDead == 0 ) && ( GetStage GMN01 == 10 ) && ( IsSwimming == 1 )\r\n\t    Kill\r\n            Player.PlaySound NPCHumanDrowning\r\n            Set isDead to 1\r\n\tendif\r\n\r\nend",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 1,
+          "Unknown": "0x050000000000000000000000",
+          "Flags": [
+            "IsLongOrShort"
+          ]
+        },
+        "Name": "isDead"
+      }
+    ],
     "References": [
       {
         "MutagenObjectType": "ScriptObjectReference",
@@ -14,11 +28,11 @@
       },
       {
         "MutagenObjectType": "ScriptObjectReference",
-        "Reference": "003F51:GMN_01.esp"
+        "Reference": "008A64:GMN_01.esp"
       },
       {
         "MutagenObjectType": "ScriptObjectReference",
-        "Reference": "0C80ED:Oblivion.esm"
+        "Reference": "0C8AC2:Oblivion.esm"
       }
     ]
   }

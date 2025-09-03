@@ -43,6 +43,9 @@
     "Responsibility": 50,
     "Teaches": "Armorer"
   },
+  "AIPackages": [
+    "008A66:GMN_01.esp"
+  ],
   "Class": "02AE7A:Oblivion.esm",
   "Stats": {
     "Armorer": 10,

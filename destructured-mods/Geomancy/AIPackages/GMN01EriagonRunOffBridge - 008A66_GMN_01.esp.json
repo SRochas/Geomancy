@@ -1,0 +1,28 @@
+{
+  "FormKey": "008A66:GMN_01.esp",
+  "EditorID": "GMN01EriagonRunOffBridge",
+  "Data": {
+    "Flags": [
+      "MustComplete",
+      "SkipFalloutBehavior",
+      "AlwaysRun"
+    ],
+    "Type": "-842150650"
+  },
+  "Location": {
+    "LocationReference": "008A67:GMN_01.esp"
+  },
+  "Schedule": {
+    "Month": "Any",
+    "DayOfWeek": "Any",
+    "Time": 255
+  },
+  "Conditions": [
+    {
+      "Fluff": "0x000000",
+      "ComparisonValue": 10.0,
+      "Function": "GetStage",
+      "FirstParameter": 16812644
+    }
+  ]
+}

@@ -21,7 +21,7 @@
       {
         "Point": "7936, 60672, 48",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x300930",
         "Connections": [
           3,
           1,
@@ -31,7 +31,7 @@
       {
         "Point": "7936, 61184, 64",
         "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x2E3030",
         "Connections": [
           6,
           5,
@@ -42,7 +42,7 @@
       {
         "Point": "7675.54, 60182.53, -8",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x303920",
         "Connections": [
           4,
           3,
@@ -52,7 +52,7 @@
       {
         "Point": "7936, 60416, 40",
         "NumConnections": 5,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x323736",
         "Connections": [
           -1,
           4,
@@ -64,7 +64,7 @@
       {
         "Point": "8192, 60160, 40",
         "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x343731",
         "Connections": [
           -1,
           -1,
@@ -75,7 +75,7 @@
       {
         "Point": "8191.99, 61184.75, 88",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x373420",
         "Connections": [
           -1,
           6,
@@ -85,7 +85,7 @@
       {
         "Point": "8192, 61440, 88",
         "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x2E3234",
         "Connections": [
           -1,
           -1,
@@ -96,7 +96,7 @@
       {
         "Point": "7735.387, 60573.332, 26",
         "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x373232",
         "Connections": [
           2,
           0,
@@ -107,7 +107,7 @@
       {
         "Point": "7598.148, 60848.285, 30",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x2E3132",
         "Connections": [
           7,
           9
@@ -116,7 +116,7 @@
       {
         "Point": "7758.718, 61231.945, 44",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x00803F",
         "Connections": [
           -1,
           8,
