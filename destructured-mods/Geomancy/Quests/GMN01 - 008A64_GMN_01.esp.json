@@ -1,5 +1,6 @@
 {
   "FormKey": "008A64:GMN_01.esp",
+  "VersionControl": 8454,
   "EditorID": "GMN01",
   "Script": "008A65:GMN_01.esp",
   "Name": "The Fall of Eriagon",
@@ -26,7 +27,6 @@
       "LogEntries": [
         {
           "Flags": [],
-          "Entry": "A Wood Elf just jumped off the bridge. I better investigate to see if he's okay.",
           "ResultScript": {
             "MetadataSummary": {
               "RefCount": 2,
@@ -45,6 +45,45 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "Stage": 20,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Entry": "A Wood Elf just jumped off the bridge. I better investigate to see if he's okay.",
+          "ResultScript": {
+            "MetadataSummary": {
+              "Type": "Quest"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Targets": [
+    {
+      "Data": {
+        "Target": "003F51:GMN_01.esp",
+        "Flags": [
+          "0x10000",
+          "0x20000",
+          "0x40000",
+          "0x100000",
+          "0x2000000",
+          "0x4000000",
+          "0x8000000",
+          "0x10000000"
+        ]
+      },
+      "Conditions": [
+        {
+          "Fluff": "0x000000",
+          "ComparisonValue": 20.0,
+          "Function": "GetStage",
+          "FirstParameter": 16812644
         }
       ]
     }

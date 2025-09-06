@@ -6,10 +6,10 @@
   ],
   "Grid": "1, 15",
   "Regions": [
-    "06EF2F:Oblivion.esm",
-    "07B864:Oblivion.esm",
+    "1194AF:Oblivion.esm",
     "094161:Oblivion.esm",
-    "1194AF:Oblivion.esm"
+    "07B864:Oblivion.esm",
+    "06EF2F:Oblivion.esm"
   ],
   "PathGrid": {
     "FormKey": "068589:Oblivion.esm",
@@ -33,8 +33,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          0,
-          2
+          2,
+          0
         ]
       },
       {
@@ -42,17 +42,17 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          1,
-          3
+          3,
+          1
         ]
       },
       {
         "Point": "7214.3955, 63414.035, 1027",
         "NumConnections": 2,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
-          2,
-          4
+          4,
+          2
         ]
       },
       {
@@ -60,8 +60,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          3,
-          5
+          5,
+          3
         ]
       },
       {
@@ -69,8 +69,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          4,
-          6
+          6,
+          4
         ]
       },
       {
@@ -78,17 +78,17 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          5,
-          7
+          7,
+          5
         ]
       },
       {
         "Point": "6191.116, 63417.875, 1027",
         "NumConnections": 2,
-        "Unused": "0xE0241E",
+        "Unused": "0xCDCDCD",
         "Connections": [
-          6,
-          8
+          8,
+          6
         ]
       },
       {
@@ -96,8 +96,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          7,
-          9
+          9,
+          7
         ]
       },
       {
@@ -105,8 +105,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          8,
-          10
+          10,
+          8
         ]
       },
       {
@@ -114,8 +114,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          9,
-          11
+          11,
+          9
         ]
       },
       {
@@ -123,8 +123,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          10,
-          12
+          12,
+          10
         ]
       },
       {
@@ -132,8 +132,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          11,
-          13
+          13,
+          11
         ]
       },
       {
@@ -141,17 +141,17 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          12,
-          14
+          14,
+          12
         ]
       },
       {
         "Point": "4399.7637, 63416.53, 1027",
         "NumConnections": 2,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
-          13,
-          15
+          15,
+          13
         ]
       },
       {
@@ -166,13 +166,13 @@
       {
         "Point": "6656, 65280, -24",
         "NumConnections": 5,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           -1,
           -1,
-          20,
+          18,
           19,
-          18
+          20
         ]
       },
       {
@@ -188,9 +188,9 @@
         "NumConnections": 3,
         "Unused": "0xCDCDCD",
         "Connections": [
-          17,
+          16,
           19,
-          16
+          17
         ]
       },
       {
@@ -199,10 +199,10 @@
         "Unused": "0xCDCDCD",
         "Connections": [
           -1,
-          18,
-          20,
+          16,
           21,
-          16
+          20,
+          18
         ]
       },
       {
@@ -213,9 +213,9 @@
           -1,
           -1,
           -1,
-          19,
+          16,
           21,
-          16
+          19
         ]
       },
       {
@@ -224,8 +224,8 @@
         "Unused": "0xCDCDCD",
         "Connections": [
           -1,
-          19,
-          20
+          20,
+          19
         ]
       },
       {
@@ -241,8 +241,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          22,
-          24
+          24,
+          22
         ]
       },
       {
@@ -250,8 +250,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          23,
-          25
+          25,
+          23
         ]
       },
       {
@@ -259,8 +259,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          24,
-          26
+          26,
+          24
         ]
       },
       {
@@ -289,8 +289,8 @@
         "Unused": "0xCDCDCD",
         "Connections": [
           -1,
-          27,
-          29
+          29,
+          27
         ]
       },
       {
@@ -298,8 +298,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          28,
-          30
+          30,
+          28
         ]
       },
       {
@@ -323,8 +323,8 @@
         "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
-          33,
-          31
+          31,
+          33
         ]
       },
       {
@@ -351,31 +351,28 @@
     "PGAG": "0x00003F0000",
     "InterCellConnections": [
       {
-        "PointID": 1148911632,
-        "Point": "6912, 65792, 152"
-      },
-      {
-        "Point": "8250.013, 63422.63, 1027"
-      },
-      {
-        "PointID": 692912143,
-        "Point": "3850.6653, 63416.45, 1027"
+        "PointID": 21,
+        "Point": "7936, 65792, 128"
       },
       {
         "PointID": 20,
-        "Point": "6656, 65536, 40"
+        "Point": "7424, 65792, 176"
       },
       {
-        "PointID": 19,
-        "Point": "6656, 65536, 40"
+        "PointID": 20,
+        "Point": "6912, 65792, 152"
       },
       {
-        "PointID": 16,
-        "Point": "6656, 65536, 40"
+        "PointID": 28,
+        "Point": "8192, 61696, 96"
+      },
+      {
+        "PointID": 27,
+        "Point": "7758.718, 61231.945, 44"
       },
       {
         "PointID": 26,
-        "Point": "8192, 64512, 200"
+        "Point": "8704, 64768, 192"
       },
       {
         "PointID": 26,
@@ -383,272 +380,65 @@
       },
       {
         "PointID": 26,
-        "Point": "8704, 64768, 192"
+        "Point": "8192, 64512, 200"
       },
       {
-        "PointID": 27,
-        "Point": "7758.718, 61231.945, 44"
+        "PointID": 16,
+        "Point": "6656, 65536, 40"
       },
       {
-        "PointID": 28,
-        "Point": "8192, 61696, 96"
+        "PointID": 19,
+        "Point": "6656, 65536, 40"
       },
       {
         "PointID": 20,
+        "Point": "6656, 65536, 40"
+      },
+      {
+        "PointID": 692912143,
+        "Point": "3850.6653, 63416.45, 1027"
+      },
+      {
+        "Point": "8250.013, 63422.63, 1027"
+      },
+      {
+        "PointID": 1148911632,
         "Point": "6912, 65792, 152"
-      },
-      {
-        "PointID": 20,
-        "Point": "7424, 65792, 176"
-      },
-      {
-        "PointID": 21,
-        "Point": "7936, 65792, 128"
       }
     ]
   },
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9D:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeFloor02",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
+      "FormKey": "00235D:GMN_01.esp",
+      "Base": "06DB32:Oblivion.esm",
+      "Scale": 1.27,
       "Location": {
-        "Position": "5670.493, 62183.566, 1263.5525",
-        "Rotation": "0.20000415, -0, 0"
+        "Position": "5663.9277, 62955.195, 1156.6147"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A99:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeRightWall01",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
+      "FormKey": "00318C:GMN_01.esp",
+      "Base": "06717E:Oblivion.esm",
+      "Scale": 1.35,
       "Location": {
-        "Position": "5542.112, 62638.344, 1322.4125",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+        "Position": "5665.7256, 63895.16, 1157.5728",
+        "Rotation": "-1.5707964, 0, 0"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9A:GMN_01.esp",
+      "FormKey": "002AA5:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeRightWall02",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5542.3877, 62212.973, 1408.6392",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A94:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeRightWall03",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5542.112, 61791.387, 1494.099",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A95:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeLeftWall03",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5798.3975, 61791.387, 1494.099",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A97:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeLeftWall02",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5798.6733, 62212.973, 1408.6392",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A98:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeLeftWall01",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5798.3975, 62638.344, 1322.4125",
-        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A91:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeCeiling04",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.2173, 61825.55, 1662.6359",
-        "Rotation": "0.20000415, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9B:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeCeiling02",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.493, 62247.14, 1577.1776",
-        "Rotation": "0.20000415, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A9C:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeCeiling01",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.2173, 62672.516, 1490.9467",
-        "Rotation": "0.20000415, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002A8F:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNInvisibleBridgeFloor03",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0852A4:Oblivion.esm",
-      "Location": {
-        "Position": "5670.2173, 61761.977, 1349.0162",
-        "Rotation": "0.20000415, -0, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AAC:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow4Left",
+      "EditorID": "GMNActivatorFlameNodeRow1Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
       ],
       "Base": "06717E:Oblivion.esm",
       "Scale": 1.35,
       "Location": {
-        "Position": "5777.8735, 61524.1, 1443.7585",
-        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AAB:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow4Right",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "06717E:Oblivion.esm",
-      "Scale": 1.35,
-      "Location": {
-        "Position": "5526.485, 61524.1, 1443.7585",
-        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AAA:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow3Left",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "06717E:Oblivion.esm",
-      "Scale": 1.35,
-      "Location": {
-        "Position": "5792.6206, 61908.656, 1363.4589",
-        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AA9:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow3Right",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "06717E:Oblivion.esm",
-      "Scale": 1.35,
-      "Location": {
-        "Position": "5541.232, 61908.656, 1363.4589",
-        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AA8:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow2Left",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "06717E:Oblivion.esm",
-      "Scale": 1.35,
-      "Location": {
-        "Position": "5792.6206, 62366.96, 1288.1516",
-        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AA7:GMN_01.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow2Right",
-      "OblivionMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "06717E:Oblivion.esm",
-      "Scale": 1.35,
-      "Location": {
-        "Position": "5541.232, 62366.96, 1288.1516",
+        "Position": "5541.232, 62806.383, 1173.9207",
         "Rotation": "-1.3280754, -0.49976692, -0.015953604"
       }
     },
@@ -669,36 +459,246 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "002AA5:GMN_01.esp",
+      "FormKey": "002AA7:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "EditorID": "GMNActivatorFlameNodeRow1Right",
+      "EditorID": "GMNActivatorFlameNodeRow2Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
       ],
       "Base": "06717E:Oblivion.esm",
       "Scale": 1.35,
       "Location": {
-        "Position": "5541.232, 62806.383, 1173.9207",
+        "Position": "5541.232, 62366.96, 1288.1516",
         "Rotation": "-1.3280754, -0.49976692, -0.015953604"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "00318C:GMN_01.esp",
+      "FormKey": "002AA8:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNActivatorFlameNodeRow2Left",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
       "Base": "06717E:Oblivion.esm",
       "Scale": 1.35,
       "Location": {
-        "Position": "5665.7256, 63895.16, 1157.5728",
-        "Rotation": "-1.5707964, 0, 0"
+        "Position": "5792.6206, 62366.96, 1288.1516",
+        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "00235D:GMN_01.esp",
-      "Base": "06DB32:Oblivion.esm",
-      "Scale": 1.27,
+      "FormKey": "002AA9:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNActivatorFlameNodeRow3Right",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "06717E:Oblivion.esm",
+      "Scale": 1.35,
       "Location": {
-        "Position": "5663.9277, 62955.195, 1156.6147"
+        "Position": "5541.232, 61908.656, 1363.4589",
+        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002AAA:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNActivatorFlameNodeRow3Left",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "06717E:Oblivion.esm",
+      "Scale": 1.35,
+      "Location": {
+        "Position": "5792.6206, 61908.656, 1363.4589",
+        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002AAB:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNActivatorFlameNodeRow4Right",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "06717E:Oblivion.esm",
+      "Scale": 1.35,
+      "Location": {
+        "Position": "5526.485, 61524.1, 1443.7585",
+        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002AAC:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNActivatorFlameNodeRow4Left",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "06717E:Oblivion.esm",
+      "Scale": 1.35,
+      "Location": {
+        "Position": "5777.8735, 61524.1, 1443.7585",
+        "Rotation": "-1.3280754, -0.49976692, -0.015953604"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A8F:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeFloor03",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.2173, 61761.977, 1349.0162",
+        "Rotation": "0.20000415, -0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A9C:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeCeiling01",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.2173, 62672.516, 1490.9467",
+        "Rotation": "0.20000415, -0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A9B:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeCeiling02",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.493, 62247.14, 1577.1776",
+        "Rotation": "0.20000415, -0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A91:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeCeiling04",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.2173, 61825.55, 1662.6359",
+        "Rotation": "0.20000415, -0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A98:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeLeftWall01",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5798.3975, 62638.344, 1322.4125",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A97:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeLeftWall02",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5798.6733, 62212.973, 1408.6392",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A95:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeLeftWall03",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5798.3975, 61791.387, 1494.099",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A94:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeRightWall03",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5542.112, 61791.387, 1494.099",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A9A:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeRightWall02",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5542.3877, 62212.973, 1408.6392",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A99:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeRightWall01",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5542.112, 62638.344, 1322.4125",
+        "Rotation": "-2.9415884, 1.5707964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "002A9D:GMN_01.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "EditorID": "GMNInvisibleBridgeFloor02",
+      "OblivionMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0852A4:Oblivion.esm",
+      "Location": {
+        "Position": "5670.493, 62183.566, 1263.5525",
+        "Rotation": "0.20000415, -0, 0"
       }
     },
     {
@@ -734,7 +734,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A9E:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8453,
       "EditorID": "GMNInvisibleBridgeFloor01",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -746,5 +745,5 @@
       }
     }
   ],
-  "VisibleWhenDistantTimestamp": 8453
+  "VisibleWhenDistantTimestamp": 8454
 }
