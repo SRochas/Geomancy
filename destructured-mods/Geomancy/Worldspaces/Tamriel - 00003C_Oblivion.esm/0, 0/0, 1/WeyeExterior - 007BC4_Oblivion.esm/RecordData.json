@@ -7,11 +7,11 @@
   ],
   "Grid": "0, 15",
   "Regions": [
-    "06EF2F:Oblivion.esm",
-    "1194AF:Oblivion.esm",
-    "067C74:Oblivion.esm",
-    "067C72:Oblivion.esm",
+    "07B864:Oblivion.esm",
     "094161:Oblivion.esm",
-    "07B864:Oblivion.esm"
+    "067C72:Oblivion.esm",
+    "067C74:Oblivion.esm",
+    "1194AF:Oblivion.esm",
+    "06EF2F:Oblivion.esm"
   ]
 }
