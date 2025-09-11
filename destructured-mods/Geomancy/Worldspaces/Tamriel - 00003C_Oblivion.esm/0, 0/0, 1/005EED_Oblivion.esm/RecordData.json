@@ -85,7 +85,7 @@
       {
         "Point": "8192, 61440, 88",
         "NumConnections": 4,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           -1,
           -1,
@@ -107,7 +107,7 @@
       {
         "Point": "7598.148, 60848.285, 30",
         "NumConnections": 2,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           7,
           9
