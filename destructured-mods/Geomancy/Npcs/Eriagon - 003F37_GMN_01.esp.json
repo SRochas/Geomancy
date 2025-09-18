@@ -25,11 +25,7 @@
   "Script": "004625:GMN_01.esp",
   "Items": [
     {
-      "Item": "00CEA7:GMN_01.esp",
-      "Count": 1
-    },
-    {
-      "Item": "064FE5:Oblivion.esm",
+      "Item": "064FE4:Oblivion.esm",
       "Count": 1
     },
     {
@@ -37,7 +33,11 @@
       "Count": 1
     },
     {
-      "Item": "064FE4:Oblivion.esm",
+      "Item": "064FE5:Oblivion.esm",
+      "Count": 1
+    },
+    {
+      "Item": "00CEA7:GMN_01.esp",
       "Count": 1
     }
   ],
