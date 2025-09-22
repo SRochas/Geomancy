@@ -51,9 +51,10 @@
       },
       {
         "Point": "7936, 60416, 40",
-        "NumConnections": 4,
+        "NumConnections": 5,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           7,
           0,
           2,
@@ -62,27 +63,32 @@
       },
       {
         "Point": "8192, 60160, 40",
-        "NumConnections": 2,
+        "NumConnections": 4,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
+          -1,
           3,
           2
         ]
       },
       {
         "Point": "8191.99, 61184.75, 88",
-        "NumConnections": 2,
+        "NumConnections": 3,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           1,
           6
         ]
       },
       {
         "Point": "8192, 61440, 88",
-        "NumConnections": 2,
+        "NumConnections": 4,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
+          -1,
           1,
           5
         ]
@@ -109,9 +115,10 @@
       },
       {
         "Point": "7758.718, 61231.945, 44",
-        "NumConnections": 2,
+        "NumConnections": 3,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           1,
           8
         ]

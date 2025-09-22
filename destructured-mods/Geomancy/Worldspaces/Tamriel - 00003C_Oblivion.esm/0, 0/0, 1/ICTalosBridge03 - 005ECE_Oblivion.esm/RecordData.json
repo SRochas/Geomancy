@@ -21,9 +21,10 @@
     "PointToPointConnections": [
       {
         "Point": "7993.541, 63421.99, 1027",
-        "NumConnections": 1,
+        "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           1
         ]
       },
@@ -111,7 +112,7 @@
       {
         "Point": "5434.8257, 63417.875, 1027",
         "NumConnections": 2,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           9,
           11
@@ -147,7 +148,7 @@
       {
         "Point": "4399.7637, 63416.53, 1027",
         "NumConnections": 2,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           13,
           15
@@ -174,7 +175,7 @@
       {
         "Point": "7168, 64768, 112",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x000000",
         "Connections": [
           18
         ]
@@ -182,7 +183,7 @@
       {
         "Point": "7168, 65024, 128",
         "NumConnections": 3,
-        "Unused": "0x000000",
+        "Unused": "0xCDCDCD",
         "Connections": [
           17,
           19,
@@ -203,7 +204,7 @@
       {
         "Point": "7168, 65536, 176",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x010000",
         "Connections": [
           19,
           21,
@@ -256,25 +257,30 @@
       },
       {
         "Point": "8041.95, 64602.312, 196",
-        "NumConnections": 1,
+        "NumConnections": 4,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
+          -1,
+          -1,
           25
         ]
       },
       {
         "Point": "7656.0947, 61603.535, 21",
-        "NumConnections": 1,
+        "NumConnections": 2,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           28
         ]
       },
       {
         "Point": "7953.796, 61709.156, 52",
-        "NumConnections": 2,
+        "NumConnections": 3,
         "Unused": "0xCDCDCD",
         "Connections": [
+          -1,
           27,
           29
         ]
@@ -327,7 +333,7 @@
       },
       {
         "Point": "5671.6597, 62536.527, 1209",
-        "Unused": "0xEB6E1D"
+        "Unused": "0xEAE01F"
       },
       {
         "Point": "5674.2666, 62410.83, 1251",
@@ -731,5 +737,5 @@
       }
     }
   ],
-  "VisibleWhenDistantTimestamp": 8463
+  "VisibleWhenDistantTimestamp": 8469
 }
