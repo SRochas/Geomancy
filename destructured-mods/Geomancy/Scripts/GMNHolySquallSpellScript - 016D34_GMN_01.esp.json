@@ -1,0 +1,57 @@
+{
+  "FormKey": "016D34:GMN_01.esp",
+  "EditorID": "GMNHolySquallSpellScript",
+  "Fields": {
+    "MetadataSummary": {
+      "RefCount": 2,
+      "VariableCount": 2,
+      "Type": "MagicEffect"
+    },
+    "CompiledScript": "0x1D0000001000060011002500000015000B0066010006002058CE1000001C0001006E110A0002007202006E5000000011000000",
+    "SourceCode": "Scn GMNHolySquallSpellScript\r\n\r\nref target\r\nshort targetHealth\r\n\r\nBegin ScriptEffectStart\r\n    set target to GetSelf\r\n    player.PushActorAway target 80\r\nEnd",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 1,
+          "Unknown": "0x000000000000000000000000"
+        },
+        "Name": "target"
+      },
+      {
+        "Data": {
+          "Index": 2,
+          "Unknown": "0x616374650000000000000000",
+          "Flags": [
+            "IsLongOrShort",
+            "0x100",
+            "0x200",
+            "0x1000",
+            "0x2000",
+            "0x4000",
+            "0x20000",
+            "0x40000",
+            "0x80000",
+            "0x200000",
+            "0x400000",
+            "0x1000000",
+            "0x4000000",
+            "0x20000000",
+            "0x40000000"
+          ],
+          "Unknown2": 1684630369
+        },
+        "Name": "targetHealth"
+      }
+    ],
+    "References": [
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "000014:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptVariableReference",
+        "VariableIndex": 1
+      }
+    ]
+  }
+}
