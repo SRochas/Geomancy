@@ -1,0 +1,55 @@
+{
+  "FormKey": "008A65:GMN_01.esp",
+  "EditorID": "GMN01Script",
+  "Fields": {
+    "MetadataSummary": {
+      "RefCount": 3,
+      "VariableCount": 1,
+      "Type": "Quest"
+    },
+    "CompiledScript": "0x1D0000001000060000004700000016002D000100290020583A1005000100720100203130203C20720200580110050001007203002031353030203C3D20262639100A0002007201006E0A0000001900000011000000",
+    "SourceCode": "Scriptname GMN01Script\r\n\r\nfloat fQuestDelayTime\r\n\r\nbegin gamemode\r\n\r\n; Stage 0 - 10\r\n; This part of the script triggers the stage where Eriagon jumps off the bridge\r\n\r\nif ( GetStage GMN01 < 10 ) && ( Player.GetDistance ICEriagonRef <= 1500 )\r\n    SetStage GMN01 10\r\nendif\r\n\r\nend",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 1,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "0x100",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x8000",
+            "0x10000",
+            "0x40000",
+            "0x80000",
+            "0x400000",
+            "0x800000",
+            "0x1000000",
+            "0x4000000",
+            "0x8000000",
+            "0x40000000",
+            "0x80000000",
+            "0x0"
+          ],
+          "Unknown2": -842150451
+        },
+        "Name": "fQuestDelayTime"
+      }
+    ],
+    "References": [
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "008A64:GMN_01.esp"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "000014:Oblivion.esm"
+      },
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "003F51:GMN_01.esp"
+      }
+    ]
+  }
+}

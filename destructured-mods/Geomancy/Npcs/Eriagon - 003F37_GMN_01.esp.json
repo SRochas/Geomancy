@@ -1,0 +1,96 @@
+{
+  "FormKey": "003F37:GMN_01.esp",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "Eriagon",
+  "OblivionMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": "Eriagon",
+  "Model": {
+    "File": "Characters\\_Male\\skeleton.NIF",
+    "BoundRadius": 66.35817
+  },
+  "Configuration": {
+    "Flags": [
+      "AutoCalcStats"
+    ],
+    "BaseSpellPoints": 100,
+    "Fatigue": 160,
+    "BarterGold": 5,
+    "LevelOffset": 1,
+    "CalcMin": 1
+  },
+  "Race": "0223C8:Oblivion.esm",
+  "Script": "004625:GMN_01.esp",
+  "Items": [
+    {
+      "Item": "064FE4:Oblivion.esm",
+      "Count": 1
+    },
+    {
+      "Item": "02319E:Oblivion.esm",
+      "Count": 1
+    },
+    {
+      "Item": "064FE5:Oblivion.esm",
+      "Count": 1
+    },
+    {
+      "Item": "00CEA7:GMN_01.esp",
+      "Count": 1
+    }
+  ],
+  "AIData": {
+    "Confidence": 100,
+    "EnergyLevel": 100,
+    "Responsibility": 50,
+    "Teaches": "Armorer"
+  },
+  "AIPackages": [
+    "008A66:GMN_01.esp"
+  ],
+  "Class": "02AE7A:Oblivion.esm",
+  "Stats": {
+    "Armorer": 10,
+    "Athletics": 30,
+    "Blade": 30,
+    "Block": 10,
+    "Blunt": 10,
+    "HandToHand": 30,
+    "HeavyArmor": 10,
+    "Alchemy": 15,
+    "Alteration": 10,
+    "Conjuration": 5,
+    "Destruction": 5,
+    "Illusion": 5,
+    "Mysticism": 5,
+    "Restoration": 5,
+    "Acrobatics": 30,
+    "LightArmor": 30,
+    "Marksman": 15,
+    "Mercantile": 25,
+    "Security": 5,
+    "Sneak": 15,
+    "Speechcraft": 25,
+    "Health": 14,
+    "Strength": 35,
+    "Intelligence": 40,
+    "Willpower": 30,
+    "Agility": 55,
+    "Speed": 50,
+    "Endurance": 40,
+    "Personality": 40,
+    "Luck": 50
+  },
+  "Hair": "090475:Oblivion.esm",
+  "HairLength": 1.0,
+  "Eyes": [
+    "027306:Oblivion.esm"
+  ],
+  "HairColor": "#008C7D50",
+  "FaceGenGeometrySymmetric": "0x5E52E9BE36FDCF3EDC4F8E3F3B581DBFB05A943D72C70EC01E7BB1BE704C7D3FE0B2E2BFECF520C0387CC3BF48FA43401F328F3F08D8BA3E04023240FEB3C7C040FA773F189A24C01440963FE031B240BC5039C04CE1743F440B9DBF8216B33FB80F21BF3872943EF44FC33FD0B6163FB6FD22C02C150B404CB3D83F32FF02C0C16EC53E43861CC0A62B9FBF0A7520409F6A0FC0AA1942C0A94F4E4054CC97BFBC9EE9BF44A54E40433D46C01BEF473F3DE846BF44B6D1BD8DE72FBFB28DA73FBFD1BBBF3CA7FEBE",
+  "FaceGenGeometryAsymmetric": "0x52B10D40FE31FE3EE6F6EA3EB61D89BF0800D73F142292BEF0E0E3BFEE0484BF580C82BFF211493FA5E17F3FF581593F80AA353F625988BD2E3BC43F4EB0F83D846423BF8ABCB8BF6E2E2040DC9C863E26C23740C429FF3F21EB26BF1A651DC074B9ACBF8CA2AABF7E7387BFDED6EE3EDBB6B2BFE23A3D3F",
+  "FaceGenTextureSymmetric": "0xBDE58ABF7852E0BFFC0883BEBF768D3F152B113FECA1DBBF482DD4BDE42B993E7443453EBFAFDE3EF4F7A2BFE9B9DBBB21A9913E3E0F653FC02A19BFA8944BBD659821BEA4FAA63F53CF9FBE23009F3F118A22400042C6BF85B007BFD97DC9BFE80E723FEEC0CDBF5448233E5F2C64BFC0B7793FED4A18400920C2BFC80A10C01193AEBE869D923C5856B3BEF221C43E7434D3BE37B6A63FE78400C0AF409D3FAFAE203F41BFD8BF7E1DF5BF5177A2BEF930EBBEE6523D3F00B79F3F9DBFB7BFF121603F33E28FC0",
+  "FNAM": "0x2E4A"
+}

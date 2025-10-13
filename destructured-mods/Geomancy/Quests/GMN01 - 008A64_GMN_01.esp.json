@@ -1,0 +1,90 @@
+{
+  "FormKey": "008A64:GMN_01.esp",
+  "EditorID": "GMN01",
+  "Script": "008A65:GMN_01.esp",
+  "Name": "The Fall of Eriagon",
+  "Data": {
+    "Flags": [
+      "StartGameEnabled"
+    ],
+    "Priority": 50
+  },
+  "Conditions": [
+    {
+      "Fluff": "0x000000",
+      "Function": "GetPlayerInSEWorld"
+    },
+    {
+      "Fluff": "0x000000",
+      "ComparisonValue": 1.0,
+      "Function": "GetIsPlayableRace"
+    }
+  ],
+  "Stages": [
+    {
+      "Stage": 10,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "ResultScript": {
+            "MetadataSummary": {
+              "RefCount": 2,
+              "Type": "Quest"
+            },
+            "CompiledScript": "0x15000B007202006601000300202E311C0001005E100000",
+            "SourceCode": "Set GMN01.fQuestDelayTime to .1\r\nICEriagonRef.EvaluatePackage",
+            "References": [
+              {
+                "MutagenObjectType": "ScriptObjectReference",
+                "Reference": "003F51:GMN_01.esp"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectReference",
+                "Reference": "008A64:GMN_01.esp"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Stage": 20,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Entry": "A Wood Elf just jumped off the bridge. I better investigate to see if he's okay.",
+          "ResultScript": {
+            "MetadataSummary": {
+              "Type": "Quest"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Targets": [
+    {
+      "Data": {
+        "Target": "003F51:GMN_01.esp",
+        "Flags": [
+          "0x20000",
+          "0x40000",
+          "0x80000",
+          "0x100000",
+          "0x1000000",
+          "0x4000000",
+          "0x8000000",
+          "0x10000000"
+        ]
+      },
+      "Conditions": [
+        {
+          "Fluff": "0x000000",
+          "ComparisonValue": 20.0,
+          "Function": "GetStage",
+          "FirstParameter": 16812644
+        }
+      ]
+    }
+  ]
+}

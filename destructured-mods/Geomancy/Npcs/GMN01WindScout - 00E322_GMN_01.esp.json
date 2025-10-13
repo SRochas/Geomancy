@@ -1,0 +1,100 @@
+{
+  "FormKey": "00E322:GMN_01.esp",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "VersionControl": 8469,
+  "EditorID": "GMN01WindScout",
+  "OblivionMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": "Wind Scout",
+  "Model": {
+    "File": "Characters\\_Male\\skeleton.nif",
+    "BoundRadius": 78.745605
+  },
+  "Configuration": {
+    "Flags": [
+      "Female",
+      "Essential",
+      "AutoCalcStats",
+      "PCLevelOffset"
+    ],
+    "BaseSpellPoints": 137,
+    "Fatigue": 145,
+    "CalcMin": 1
+  },
+  "Race": "019204:Oblivion.esm",
+  "Items": [
+    {
+      "Item": "0A498F:Oblivion.esm",
+      "Count": 1
+    },
+    {
+      "Item": "0A4990:Oblivion.esm",
+      "Count": 1
+    }
+  ],
+  "AIData": {
+    "Confidence": 50,
+    "EnergyLevel": 80,
+    "Responsibility": 90,
+    "BuySellServices": [
+      "Weapons",
+      "Armor",
+      "Clothing",
+      "Books",
+      "Ingredients",
+      "Lights",
+      "Apparatus",
+      "Miscellaneous",
+      "Spells",
+      "MagicItems",
+      "Potions"
+    ],
+    "Teaches": "Armorer"
+  },
+  "Class": "082DD2:Oblivion.esm",
+  "Stats": {
+    "Armorer": 5,
+    "Athletics": 5,
+    "Blade": 5,
+    "Block": 5,
+    "Blunt": 5,
+    "HandToHand": 5,
+    "HeavyArmor": 5,
+    "Alchemy": 35,
+    "Alteration": 40,
+    "Conjuration": 35,
+    "Destruction": 40,
+    "Illusion": 35,
+    "Mysticism": 40,
+    "Restoration": 30,
+    "Acrobatics": 5,
+    "LightArmor": 5,
+    "Marksman": 5,
+    "Mercantile": 5,
+    "Security": 5,
+    "Sneak": 5,
+    "Speechcraft": 5,
+    "Health": 12,
+    "Strength": 30,
+    "Intelligence": 55,
+    "Willpower": 45,
+    "Agility": 40,
+    "Speed": 40,
+    "Endurance": 30,
+    "Personality": 40,
+    "Luck": 50
+  },
+  "Hair": "090475:Oblivion.esm",
+  "HairLength": 1.0,
+  "Eyes": [
+    "027308:Oblivion.esm"
+  ],
+  "HairColor": "#00FFFFAE",
+  "CombatStyle": "0CA0D4:Oblivion.esm",
+  "FaceGenGeometrySymmetric": "0x7E4781BF1073693FF4C457BF107E9B3E1B4A843F009B8FBFC8FEF4BF88862CBE549725C01C9DC23E128F0F402C8ED63F66D000C0AA46833E34D312405CEA35C0742DC83EE8ECD13E67D21CBF94991FBF1EA0E53F02C36CBE12A9E1BFDC9430BE4834583F34592ABFB8CE5FBF1C3E6640651D653FC42891BFD3D4ED3FFE0604C08746CCBFCF25CF3FFA9F043ECD1709C0873B533E77F51240F803983D693D26BF1D81E8BE3041A03F5A65453F4C1799BED28651BF90AC1ABFD48B363E1C4F84BE00E73BBE12C929BF",
+  "FaceGenGeometryAsymmetric": "0xB8A235BF0F84D2BE921CCDBE1EC3DCBD82AC2540AEC027BFDA9E15BFE44E68BFF27AC7BB32B79FBF023DD6BE7591193F2885A43F6656933E63D852BF88B858BF6EF0BFBFE20B73BFE0E88CBF865D963F8461E9BCBC7AB23E4A6FE4BE10EA673FAAEFA83DECB1823D0886073F219D72BFAC107DBDAD4B22BE",
+  "FaceGenTextureSymmetric": "0xC0CC2BBD5EC1D7BF135803400EAC043FA4D0C83E105DC13E087C8E3F50CCE73EEBED8DBF982BB33F7C7A8B3E5AC79F3FE000E8BE1528AF3FAA87EABF38E6ED3E10D1D4BE5C2EF2BEC40EBE3FEE99BBBF58F4EB3F6CD2E9BF786520BD76455ABFA0642FBE0CCAD63FF64C92BF94E5963F08433BBF8B211C404C5CAC3E80C8173CA89382BF84340FC006A6EF3FEDED0EC080810E40E09432406A3E1F3F94E64B3FC80402BD2AE6723F34606BC0F09BA0BFD467893E95372ABF566E26BF62D9F23F3A14CABE0CFE11C0",
+  "FNAM": "0xE621"
+}

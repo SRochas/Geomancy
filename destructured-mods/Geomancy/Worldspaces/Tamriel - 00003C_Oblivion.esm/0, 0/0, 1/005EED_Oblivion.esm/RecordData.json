@@ -10,12 +10,157 @@
     "1194AF:Oblivion.esm",
     "06EF2F:Oblivion.esm"
   ],
+  "PathGrid": {
+    "FormKey": "0CCEFB:Oblivion.esm",
+    "IsCompressed": true,
+    "MajorRecordFlagsRaw": 262144,
+    "OblivionMajorRecordFlags": [
+      "Compressed"
+    ],
+    "PointToPointConnections": [
+      {
+        "Point": "7936, 60672, 48",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          7,
+          1,
+          3
+        ]
+      },
+      {
+        "Point": "7936, 61184, 64",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          9,
+          0,
+          5,
+          6
+        ]
+      },
+      {
+        "Point": "7675.54, 60182.53, -8",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          7,
+          3,
+          4
+        ]
+      },
+      {
+        "Point": "7936, 60416, 40",
+        "NumConnections": 5,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          7,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "Point": "8192, 60160, 40",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          3,
+          2
+        ]
+      },
+      {
+        "Point": "8191.99, 61184.75, 88",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          1,
+          6
+        ]
+      },
+      {
+        "Point": "8192, 61440, 88",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          -1,
+          1,
+          5
+        ]
+      },
+      {
+        "Point": "7735.387, 60573.332, 26",
+        "NumConnections": 4,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          8,
+          3,
+          0,
+          2
+        ]
+      },
+      {
+        "Point": "7598.148, 60848.285, 30",
+        "NumConnections": 2,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          9,
+          7
+        ]
+      },
+      {
+        "Point": "7758.718, 61231.945, 44",
+        "NumConnections": 3,
+        "Unused": "0xCDCDCD",
+        "Connections": [
+          -1,
+          1,
+          8
+        ]
+      }
+    ],
+    "PGAG": "0x7F00",
+    "InterCellConnections": [
+      {
+        "PointID": 3,
+        "Point": "8206.24, 60514.99, 60"
+      },
+      {
+        "PointID": 4,
+        "Point": "8461.011, 60415.56, 56"
+      },
+      {
+        "PointID": 4,
+        "Point": "8516.84, 60111.387, 34"
+      },
+      {
+        "PointID": 6,
+        "Point": "8717.389, 61130.188, 84"
+      },
+      {
+        "PointID": 5,
+        "Point": "8717.389, 61130.188, 84"
+      },
+      {
+        "PointID": 9,
+        "Point": "7656.0947, 61603.535, 21"
+      },
+      {
+        "PointID": -1163067386,
+        "Point": "8448, 61696, 112"
+      }
+    ]
+  },
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A93:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeRightWall04",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -30,7 +175,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A7B:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeRightWall05",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -45,7 +189,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A75:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeRightWall06",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -60,7 +203,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A89:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeRightWall07",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -75,7 +217,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8A:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeRightWall08",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -90,7 +231,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A87:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeLeftWall08",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -105,7 +245,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A88:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeLeftWall07",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -120,7 +259,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A86:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeLeftWall06",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -135,7 +273,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A85:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeLeftWall05",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -150,7 +287,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A96:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeLeftWall04",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -165,7 +301,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8B:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeCeiling09",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -180,7 +315,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8C:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeCeiling08",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -195,7 +329,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A82:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeCeiling07",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -210,7 +343,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A81:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeCeiling06",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -225,7 +357,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A92:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeCeiling05",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -240,7 +371,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8D:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor09",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -255,7 +385,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A9F:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor08",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -270,7 +399,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A8E:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor07",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -285,7 +413,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A80:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor06",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -300,7 +427,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A7F:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor05",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -315,7 +441,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002A90:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNInvisibleBridgeFloor04",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -330,7 +455,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AAE:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow10Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -346,7 +470,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AAD:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow10Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -362,7 +485,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB8:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow9Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -378,7 +500,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB7:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow9Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -394,7 +515,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB6:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow8Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -410,7 +530,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB5:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow8Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -426,7 +545,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB4:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow7Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -442,7 +560,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB3:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow7Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -458,7 +575,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB2:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow6Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -474,7 +590,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB1:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow6Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -490,7 +605,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AB0:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow5Left",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
@@ -506,7 +620,6 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "002AAF:GMN_01.esp",
       "MajorRecordFlagsRaw": 2048,
-      "VersionControl": 8206,
       "EditorID": "GMNActivatorFlameNodeRow5Right",
       "OblivionMajorRecordFlags": [
         "InitiallyDisabled"
