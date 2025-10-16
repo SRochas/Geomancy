@@ -1,0 +1,426 @@
+{
+  "FormKey": "02C171:Oblivion.esm",
+  "EditorID": "ICMarketDistrictTheMerchantsInn",
+  "Name": "The Merchants Inn",
+  "Flags": [
+    "IsInteriorCell",
+    "PublicPlace"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00323232",
+    "DirectionalColor": "#00000000",
+    "FogColor": "#00000000",
+    "DirectionalFade": 1.0
+  },
+  "MusicType": "Public",
+  "Owner": "015EAE:Oblivion.esm",
+  "PathGrid": {
+    "FormKey": "03102E:Oblivion.esm",
+    "IsCompressed": true,
+    "MajorRecordFlagsRaw": 262144,
+    "OblivionMajorRecordFlags": [
+      "Compressed"
+    ],
+    "PointToPointConnections": [
+      {
+        "Point": "617.8277, -625.3419, -192",
+        "NumConnections": 3,
+        "Unused": "0xE30001",
+        "Connections": [
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "Point": "460.7058, -625.51306, -192",
+        "NumConnections": 4,
+        "Unused": "0x303157",
+        "Connections": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "Point": "463.76837, -426.4345, -190",
+        "NumConnections": 4,
+        "Unused": "0x0B0057",
+        "Connections": [
+          1,
+          3,
+          0,
+          10
+        ]
+      },
+      {
+        "Point": "568.2962, -474.63278, -190",
+        "NumConnections": 3,
+        "Unused": "0x4C1E00",
+        "Connections": [
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "Point": "290.63715, -622.23535, -192",
+        "NumConnections": 4,
+        "Unused": "0x616C65",
+        "Connections": [
+          1,
+          5,
+          7,
+          6
+        ]
+      },
+      {
+        "Point": "159.40988, -598.2879, -190",
+        "NumConnections": 5,
+        "Unused": "0x004D4F",
+        "Connections": [
+          4,
+          6,
+          7,
+          9,
+          31
+        ]
+      },
+      {
+        "Point": "133.78293, -451.52094, -190",
+        "NumConnections": 4,
+        "Unused": "0x000320",
+        "Connections": [
+          9,
+          5,
+          7,
+          4
+        ]
+      },
+      {
+        "Point": "264.0145, -470.80566, -190",
+        "NumConnections": 3,
+        "Unused": "0x00524E",
+        "Connections": [
+          6,
+          4,
+          5
+        ]
+      },
+      {
+        "Point": "-28.686035, -674.445, -190",
+        "NumConnections": 2,
+        "Unused": "0x00366D",
+        "Connections": [
+          9,
+          31
+        ]
+      },
+      {
+        "Point": "59.75759, -557.0656, -190",
+        "NumConnections": 4,
+        "Unused": "0x4E544F",
+        "Connections": [
+          6,
+          8,
+          5,
+          31
+        ]
+      },
+      {
+        "Point": "446.048, -272.18445, -190",
+        "NumConnections": 5,
+        "Unused": "0x4F0800",
+        "Connections": [
+          2,
+          11,
+          13,
+          12,
+          14
+        ]
+      },
+      {
+        "Point": "319.9971, -273.43994, -192",
+        "NumConnections": 5,
+        "Unused": "0x000064",
+        "Connections": [
+          10,
+          12,
+          13,
+          22,
+          23
+        ]
+      },
+      {
+        "Point": "360.70596, -158.41866, -192",
+        "NumConnections": 6,
+        "Unused": "0x440400",
+        "Connections": [
+          11,
+          13,
+          10,
+          19,
+          23,
+          22
+        ]
+      },
+      {
+        "Point": "474.63635, -157.40414, -190",
+        "NumConnections": 4,
+        "Unused": "0x004441",
+        "Connections": [
+          12,
+          10,
+          11,
+          14
+        ]
+      },
+      {
+        "Point": "581.19366, -118.65755, -192",
+        "NumConnections": 3,
+        "Unused": "0x646464",
+        "Connections": [
+          13,
+          10,
+          15
+        ]
+      },
+      {
+        "Point": "575.49585, 18.89908, -192",
+        "NumConnections": 2,
+        "Unused": "0x646464",
+        "Connections": [
+          14,
+          16
+        ]
+      },
+      {
+        "Point": "529.0889, 109.884056, -192",
+        "NumConnections": 3,
+        "Unused": "0x09004C",
+        "Connections": [
+          15,
+          17,
+          20
+        ]
+      },
+      {
+        "Point": "418.23404, 102.004906, -188",
+        "NumConnections": 2,
+        "Unused": "0x040008",
+        "Connections": [
+          16,
+          18
+        ]
+      },
+      {
+        "Point": "303.40247, 68.227684, -192",
+        "NumConnections": 3,
+        "Unused": "0x5A4E41",
+        "Connections": [
+          17,
+          19,
+          29
+        ]
+      },
+      {
+        "Point": "285.3935, -71.822174, -192",
+        "NumConnections": 4,
+        "Unused": "0x7E4781",
+        "Connections": [
+          18,
+          12,
+          23,
+          29
+        ]
+      },
+      {
+        "Point": "537.0161, 261.4097, -192",
+        "NumConnections": 2,
+        "Unused": "0x1B4A84",
+        "Connections": [
+          16,
+          21
+        ]
+      },
+      {
+        "Point": "4.1907525, 293.7203, 196",
+        "NumConnections": 1,
+        "Unused": "0x549725",
+        "Connections": [
+          20
+        ]
+      },
+      {
+        "Point": "193.29163, -287.1924, -192",
+        "NumConnections": 5,
+        "Unused": "0x66D000",
+        "Connections": [
+          11,
+          23,
+          12,
+          24,
+          26
+        ]
+      },
+      {
+        "Point": "250.66942, -176.86644, -192",
+        "NumConnections": 4,
+        "Unused": "0x742DC8",
+        "Connections": [
+          22,
+          12,
+          19,
+          11
+        ]
+      },
+      {
+        "Point": "-28.594065, -279.35455, -192",
+        "NumConnections": 3,
+        "Unused": "0x1EA0E5",
+        "Connections": [
+          22,
+          25,
+          26
+        ]
+      },
+      {
+        "Point": "-24.741482, -190.9855, -192",
+        "NumConnections": 3,
+        "Unused": "0x483458",
+        "Connections": [
+          24,
+          26,
+          27
+        ]
+      },
+      {
+        "Point": "75.04588, -234.59843, -192",
+        "NumConnections": 3,
+        "Unused": "0x651D65",
+        "Connections": [
+          25,
+          22,
+          24
+        ]
+      },
+      {
+        "Point": "-32.805687, -31.372858, -192",
+        "NumConnections": 2,
+        "Unused": "0x8746CC",
+        "Connections": [
+          25,
+          28
+        ]
+      },
+      {
+        "Point": "14.701357, 85.32935, -192",
+        "NumConnections": 3,
+        "Unused": "0x873B53",
+        "Connections": [
+          27,
+          29,
+          30
+        ]
+      },
+      {
+        "Point": "155.28984, 55.090294, -192",
+        "NumConnections": 3,
+        "Unused": "0x1D81E8",
+        "Connections": [
+          28,
+          18,
+          19
+        ]
+      },
+      {
+        "Point": "33.209133, 280.1387, -192",
+        "NumConnections": 1,
+        "Unused": "0xD28651",
+        "Connections": [
+          28
+        ]
+      },
+      {
+        "Point": "77.74753, -670.02106, -192",
+        "NumConnections": 3,
+        "Unused": "0x00E73B",
+        "Connections": [
+          5,
+          9,
+          8
+        ]
+      }
+    ],
+    "PGAG": "0x00000000"
+  },
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0105D4:GMN_01.esp",
+      "MajorRecordFlagsRaw": 3072,
+      "VersionControl": 8720,
+      "EditorID": "GMN01MCBench02B2",
+      "OblivionMajorRecordFlags": [
+        "QuestItemPersistentReference",
+        "InitiallyDisabled"
+      ],
+      "Base": "02ECEC:Oblivion.esm",
+      "Location": {
+        "Position": "174.74773, -283.84897, 159.292",
+        "Rotation": "0, 3.1415927, -3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "00F123:GMN_01.esp",
+      "MajorRecordFlagsRaw": 3072,
+      "EditorID": "GMN01MerchantsInnWindScout",
+      "OblivionMajorRecordFlags": [
+        "QuestItemPersistentReference",
+        "InitiallyDisabled"
+      ],
+      "Base": "00E322:GMN_01.esp",
+      "Location": {
+        "Position": "93.17308, -228.67712, 185.01047",
+        "Rotation": "0, 0, 2.9831903"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00F122:GMN_01.esp",
+      "MajorRecordFlagsRaw": 3072,
+      "EditorID": "GMN01MCBench02B",
+      "OblivionMajorRecordFlags": [
+        "QuestItemPersistentReference",
+        "InitiallyDisabled"
+      ],
+      "Base": "02ECEC:Oblivion.esm",
+      "Location": {
+        "Position": "89.06008, -284.1031, 196.6074",
+        "Rotation": "0.029466605, 0, 3.0801005"
+      }
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "012F35:GMN_01.esp",
+      "Base": "02ECEC:Oblivion.esm",
+      "Location": {
+        "Position": "4.4069633, -334.61264, -176",
+        "Rotation": "0, -0, 3.0876126"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "04909D:Oblivion.esm",
+      "IsDeleted": true,
+      "MajorRecordFlagsRaw": 32,
+      "OblivionMajorRecordFlags": [
+        "Deleted"
+      ]
+    }
+  ]
+}

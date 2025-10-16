@@ -1,0 +1,23 @@
+{
+  "FormKey": "00F124:GMN_01.esp",
+  "EditorID": "GMN01WindScoutSitInChair",
+  "Data": {
+    "Flags": [
+      "MustReachLocation",
+      "MustComplete"
+    ],
+    "Type": "-842150648"
+  },
+  "Location": {
+    "LocationReference": "00F122:GMN_01.esp"
+  },
+  "Schedule": {
+    "Month": "Any",
+    "DayOfWeek": "Any",
+    "Time": 255
+  },
+  "Target": {
+    "ObjectType": "ObjectID",
+    "Object": 382230
+  }
+}

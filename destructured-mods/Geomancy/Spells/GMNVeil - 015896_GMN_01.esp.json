@@ -1,0 +1,21 @@
+{
+  "FormKey": "015896:GMN_01.esp",
+  "EditorID": "GMNVeil",
+  "Name": "GMNVeil",
+  "Data": {
+    "Type": "Ability",
+    "Level": "Master",
+    "Flag": [
+      "ManualSpellCost"
+    ]
+  },
+  "Effects": [
+    {
+      "Data": {
+        "MagicEffect": "LGHT",
+        "Magnitude": 50,
+        "ActorValue": "Health"
+      }
+    }
+  ]
+}

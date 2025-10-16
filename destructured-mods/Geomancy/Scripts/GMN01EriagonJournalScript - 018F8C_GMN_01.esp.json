@@ -1,0 +1,45 @@
+{
+  "FormKey": "018F8C:GMN_01.esp",
+  "EditorID": "GMN01EriagonJournalScript",
+  "Fields": {
+    "MetadataSummary": {
+      "RefCount": 1,
+      "VariableCount": 1
+    },
+    "CompiledScript": "0x1D000000100008000400320000000000160015000100110020583A1005000100720100203230203D3D1500070073010002002031190000000D1002000000110000001000060000003B0000001600210001001D0020583A1005000100720100203230203D3D207301002031203D3D20262639100A0002007201006E1E0000001900000011000000",
+    "SourceCode": "scn GMN01EriagonJournalScript\r\n\r\nshort DoOnce1\r\n\r\n; Player reads Eriagon Journal\r\nbegin OnEquip\r\n\tif ( GetStage GMN01 == 20 )\r\n              Set DoOnce1 to 1\r\n\tendif\r\n\tActivate\r\nend\r\n\r\n; Set GMN01 to 30 once player returns to menu\r\nbegin GameMode\r\n\tif (GetStage GMN01 == 20) && (DoOnce1 == 1)\r\n\t\tSetStage GMN01 30\r\n\tendif\r\nend",
+    "LocalVariables": [
+      {
+        "Data": {
+          "Index": 1,
+          "Unknown": "0x000000000000000000000000",
+          "Flags": [
+            "IsLongOrShort",
+            "0x100",
+            "0x200",
+            "0x400",
+            "0x800",
+            "0x4000",
+            "0x20000",
+            "0x80000",
+            "0x200000",
+            "0x800000",
+            "0x1000000",
+            "0x2000000",
+            "0x4000000",
+            "0x8000000",
+            "0x10000000"
+          ],
+          "Unknown2": 8
+        },
+        "Name": "DoOnce1"
+      }
+    ],
+    "References": [
+      {
+        "MutagenObjectType": "ScriptObjectReference",
+        "Reference": "008A64:GMN_01.esp"
+      }
+    ]
+  }
+}

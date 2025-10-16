@@ -1,27 +1,26 @@
 {
-  "FormKey": "0015AA:GMN_01.esp",
-  "EditorID": "GMNGust",
-  "Name": "Wind Gust",
+  "FormKey": "016D36:GMN_01.esp",
+  "EditorID": "GMNHolySquall",
+  "Name": "Holy Squall",
   "Data": {
-    "Cost": 11,
-    "Level": "Novice",
+    "Cost": 100,
+    "Level": "Master",
     "Flag": [
       "ManualSpellCost",
       "ScriptEffectAlwaysApplies",
-      "0x100",
       "0x400",
       "0x800",
       "0x4000",
       "0x8000",
-      "0x10000",
       "0x40000",
       "0x80000",
-      "0x400000",
       "0x800000",
       "0x1000000",
+      "0x2000000",
       "0x4000000",
       "0x8000000",
-      "0x40000000",
+      "0x10000000",
+      "0x20000000",
       "0x80000000",
       "0x0"
     ]
@@ -30,8 +29,9 @@
     {
       "Data": {
         "MagicEffect": "FRDG",
-        "Magnitude": 10,
+        "Magnitude": 100,
         "Area": 10,
+        "Duration": 10,
         "Type": "Target",
         "ActorValue": "Health"
       }
@@ -45,7 +45,7 @@
       },
       "ScriptEffect": {
         "Data": {
-          "Script": "0015A8:GMN_01.esp",
+          "Script": "016D34:GMN_01.esp",
           "MagicSchool": "Destruction",
           "Flags": [
             "0x1000",
@@ -56,7 +56,7 @@
             "0x400000"
           ]
         },
-        "Name": "Wind Gust"
+        "Name": "Script Effect"
       }
     }
   ]

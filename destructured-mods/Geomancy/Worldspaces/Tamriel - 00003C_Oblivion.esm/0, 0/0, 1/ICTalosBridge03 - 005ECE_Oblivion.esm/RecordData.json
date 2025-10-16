@@ -21,17 +21,16 @@
     "PointToPointConnections": [
       {
         "Point": "7993.541, 63421.99, 1027",
-        "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "NumConnections": 1,
+        "Unused": "0x100300",
         "Connections": [
-          -1,
           1
         ]
       },
       {
         "Point": "7727.593, 63421.99, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x681351",
         "Connections": [
           0,
           2
@@ -40,7 +39,7 @@
       {
         "Point": "7465.8, 63419.86, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x99249B",
         "Connections": [
           1,
           3
@@ -49,7 +48,7 @@
       {
         "Point": "7214.3955, 63414.035, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x2F23AD",
         "Connections": [
           2,
           4
@@ -58,7 +57,7 @@
       {
         "Point": "6952.472, 63415.938, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x0525C1",
         "Connections": [
           3,
           5
@@ -67,7 +66,7 @@
       {
         "Point": "6687.1523, 63417.957, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xE6A174",
         "Connections": [
           4,
           6
@@ -76,7 +75,7 @@
       {
         "Point": "6461.2197, 63421.734, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x0FA867",
         "Connections": [
           5,
           7
@@ -85,7 +84,7 @@
       {
         "Point": "6191.116, 63417.875, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x3126B2",
         "Connections": [
           6,
           8
@@ -94,7 +93,7 @@
       {
         "Point": "5935.5566, 63422.137, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x57013C",
         "Connections": [
           7,
           9
@@ -103,7 +102,7 @@
       {
         "Point": "5677.919, 63407.22, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xCE9EF8",
         "Connections": [
           8,
           10
@@ -112,7 +111,7 @@
       {
         "Point": "5434.8257, 63417.875, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xCDD820",
         "Connections": [
           9,
           11
@@ -121,7 +120,7 @@
       {
         "Point": "5174.7534, 63418.664, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xA6D41F",
         "Connections": [
           10,
           12
@@ -130,7 +129,7 @@
       {
         "Point": "4917.116, 63408.008, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x7B43A7",
         "Connections": [
           11,
           13
@@ -139,7 +138,7 @@
       {
         "Point": "4655.323, 63418.664, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xAEFE1F",
         "Connections": [
           12,
           14
@@ -148,7 +147,7 @@
       {
         "Point": "4399.7637, 63416.53, 1027",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x61EBE0",
         "Connections": [
           13,
           15
@@ -157,7 +156,7 @@
       {
         "Point": "4131.1577, 63420.71, 1027",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x918C5B",
         "Connections": [
           14
         ]
@@ -165,7 +164,7 @@
       {
         "Point": "6656, 65280, -24",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x07F787",
         "Connections": [
           20,
           19,
@@ -175,7 +174,7 @@
       {
         "Point": "7168, 64768, 112",
         "NumConnections": 1,
-        "Unused": "0x000000",
+        "Unused": "0x1A19EA",
         "Connections": [
           18
         ]
@@ -183,7 +182,7 @@
       {
         "Point": "7168, 65024, 128",
         "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xFB2512",
         "Connections": [
           17,
           19,
@@ -193,7 +192,7 @@
       {
         "Point": "7168, 65280, 144",
         "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xE2A4FB",
         "Connections": [
           18,
           20,
@@ -204,7 +203,7 @@
       {
         "Point": "7168, 65536, 176",
         "NumConnections": 3,
-        "Unused": "0x010000",
+        "Unused": "0x907756",
         "Connections": [
           19,
           21,
@@ -214,7 +213,7 @@
       {
         "Point": "7424, 65536, 176",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xE2A1A7",
         "Connections": [
           19,
           20
@@ -223,7 +222,7 @@
       {
         "Point": "7611.4917, 63171.973, 36",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x67A72F",
         "Connections": [
           23
         ]
@@ -231,7 +230,7 @@
       {
         "Point": "7599.054, 63604.23, 72",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x25C2C4",
         "Connections": [
           22,
           24
@@ -240,7 +239,7 @@
       {
         "Point": "7664.754, 64043.5, 112",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xC30FCF",
         "Connections": [
           23,
           25
@@ -249,7 +248,7 @@
       {
         "Point": "7851.8174, 64324.19, 158",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xC71E5D",
         "Connections": [
           24,
           26
@@ -257,30 +256,25 @@
       },
       {
         "Point": "8041.95, 64602.312, 196",
-        "NumConnections": 4,
-        "Unused": "0xCDCDCD",
+        "NumConnections": 1,
+        "Unused": "0xBC674B",
         "Connections": [
-          -1,
-          -1,
-          -1,
           25
         ]
       },
       {
         "Point": "7656.0947, 61603.535, 21",
-        "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "NumConnections": 1,
+        "Unused": "0xA8CAB7",
         "Connections": [
-          -1,
           28
         ]
       },
       {
         "Point": "7953.796, 61709.156, 52",
-        "NumConnections": 3,
-        "Unused": "0xCDCDCD",
+        "NumConnections": 2,
+        "Unused": "0x9353CA",
         "Connections": [
-          -1,
           27,
           29
         ]
@@ -288,7 +282,7 @@
       {
         "Point": "8029.3184, 61979.805, 68",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x7C6F9B",
         "Connections": [
           28,
           30
@@ -297,7 +291,7 @@
       {
         "Point": "8000.3667, 62337.625, 60",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xE53D90",
         "Connections": [
           29
         ]
@@ -305,7 +299,7 @@
       {
         "Point": "5669.5317, 62815.875, 1135",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xFF21FA",
         "Connections": [
           32
         ]
@@ -313,7 +307,7 @@
       {
         "Point": "5669.646, 62747.895, 1159",
         "NumConnections": 2,
-        "Unused": "0xCDCDCD",
+        "Unused": "0xF05443",
         "Connections": [
           33,
           31
@@ -322,22 +316,22 @@
       {
         "Point": "5675.896, 61977.387, 1337",
         "NumConnections": 1,
-        "Unused": "0xCDCDCD",
+        "Unused": "0x69C283",
         "Connections": [
           32
         ]
       },
       {
         "Point": "5672.7524, 62630.32, 1187",
-        "Unused": "0xCDCDCD"
+        "Unused": "0x66B0D0"
       },
       {
         "Point": "5671.6597, 62536.527, 1209",
-        "Unused": "0xEAE01F"
+        "Unused": "0xC2BB01"
       },
       {
         "Point": "5674.2666, 62410.83, 1251",
-        "Unused": "0xCDCDCD"
+        "Unused": "0x731D7A"
       }
     ],
     "PGAG": "0x00003F0000",
@@ -737,5 +731,5 @@
       }
     }
   ],
-  "VisibleWhenDistantTimestamp": 8469
+  "VisibleWhenDistantTimestamp": 8720
 }

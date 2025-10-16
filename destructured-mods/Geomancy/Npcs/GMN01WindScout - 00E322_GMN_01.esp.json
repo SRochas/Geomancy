@@ -2,7 +2,6 @@
   "FormKey": "00E322:GMN_01.esp",
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
-  "VersionControl": 8469,
   "EditorID": "GMN01WindScout",
   "OblivionMajorRecordFlags": [
     "Compressed"
@@ -16,27 +15,30 @@
     "Flags": [
       "Female",
       "Essential",
-      "AutoCalcStats",
-      "PCLevelOffset"
+      "NoRumors"
     ],
-    "BaseSpellPoints": 137,
-    "Fatigue": 145,
+    "BaseSpellPoints": 500,
+    "Fatigue": 377,
+    "LevelOffset": 100,
     "CalcMin": 1
   },
   "Race": "019204:Oblivion.esm",
+  "Spells": [
+    "016D36:GMN_01.esp",
+    "015896:GMN_01.esp"
+  ],
   "Items": [
     {
-      "Item": "0A498F:Oblivion.esm",
+      "Item": "0A4990:Oblivion.esm",
       "Count": 1
     },
     {
-      "Item": "0A4990:Oblivion.esm",
+      "Item": "0A498F:Oblivion.esm",
       "Count": 1
     }
   ],
   "AIData": {
-    "Confidence": 50,
-    "EnergyLevel": 80,
+    "Confidence": 100,
     "Responsibility": 90,
     "BuySellServices": [
       "Weapons",
@@ -53,38 +55,41 @@
     ],
     "Teaches": "Armorer"
   },
+  "AIPackages": [
+    "00F124:GMN_01.esp"
+  ],
   "Class": "082DD2:Oblivion.esm",
   "Stats": {
-    "Armorer": 5,
-    "Athletics": 5,
-    "Blade": 5,
-    "Block": 5,
-    "Blunt": 5,
-    "HandToHand": 5,
-    "HeavyArmor": 5,
-    "Alchemy": 35,
-    "Alteration": 40,
-    "Conjuration": 35,
-    "Destruction": 40,
-    "Illusion": 35,
-    "Mysticism": 40,
-    "Restoration": 30,
-    "Acrobatics": 5,
-    "LightArmor": 5,
-    "Marksman": 5,
-    "Mercantile": 5,
-    "Security": 5,
-    "Sneak": 5,
-    "Speechcraft": 5,
-    "Health": 12,
-    "Strength": 30,
-    "Intelligence": 55,
-    "Willpower": 45,
-    "Agility": 40,
-    "Speed": 40,
-    "Endurance": 30,
+    "Armorer": 15,
+    "Athletics": 15,
+    "Blade": 15,
+    "Block": 15,
+    "Blunt": 15,
+    "HandToHand": 15,
+    "HeavyArmor": 15,
+    "Alchemy": 100,
+    "Alteration": 100,
+    "Conjuration": 100,
+    "Destruction": 100,
+    "Illusion": 100,
+    "Mysticism": 100,
+    "Restoration": 100,
+    "Acrobatics": 15,
+    "LightArmor": 15,
+    "Marksman": 15,
+    "Mercantile": 15,
+    "Security": 15,
+    "Sneak": 15,
+    "Speechcraft": 15,
+    "Health": 386,
+    "Strength": 100,
+    "Intelligence": 100,
+    "Willpower": 100,
+    "Agility": 100,
+    "Speed": 100,
+    "Endurance": 100,
     "Personality": 40,
-    "Luck": 50
+    "Luck": 100
   },
   "Hair": "090475:Oblivion.esm",
   "HairLength": 1.0,
