@@ -24,16 +24,16 @@
   },
   "Race": "019204:Oblivion.esm",
   "Spells": [
-    "015896:GMN_01.esp",
-    "016D36:GMN_01.esp"
+    "016D36:GMN_01.esp",
+    "015896:GMN_01.esp"
   ],
   "Items": [
     {
-      "Item": "0A498F:Oblivion.esm",
+      "Item": "0A4990:Oblivion.esm",
       "Count": 1
     },
     {
-      "Item": "0A4990:Oblivion.esm",
+      "Item": "0A498F:Oblivion.esm",
       "Count": 1
     }
   ],

@@ -10,6 +10,18 @@
   "Grid": "0, 0",
   "Persistent": [
     {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "008A67:GMN_01.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "OblivionMajorRecordFlags": [
+        "QuestItemPersistentReference"
+      ],
+      "Base": "00003B:Oblivion.esm",
+      "Location": {
+        "Position": "5661.0083, 62260.54, 1310.8572"
+      }
+    },
+    {
       "MutagenObjectType": "PlacedNpc",
       "FormKey": "003F51:GMN_01.esp",
       "MajorRecordFlagsRaw": 1024,
@@ -21,18 +33,6 @@
       "Location": {
         "Position": "5664.01, 62807.258, 1162.5282",
         "Rotation": "0, -0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "008A67:GMN_01.esp",
-      "MajorRecordFlagsRaw": 1024,
-      "OblivionMajorRecordFlags": [
-        "QuestItemPersistentReference"
-      ],
-      "Base": "00003B:Oblivion.esm",
-      "Location": {
-        "Position": "5661.0083, 62260.54, 1310.8572"
       }
     }
   ]

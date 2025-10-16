@@ -1,5 +1,6 @@
 {
   "FormKey": "008A64:GMN_01.esp",
+  "VersionControl": 8720,
   "EditorID": "GMN01",
   "Script": "008A65:GMN_01.esp",
   "Name": "The Fall of Eriagon",
@@ -60,24 +61,62 @@
           }
         }
       ]
+    },
+    {
+      "Stage": 30,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Entry": "It appears the Wood Elf has drowned. From his journal I see that his name was Eriagon, and he was seeking out a scroll called the Scrolls of Icarian Flight. The scroll sounds powerful and valuable. Perhaps if I retrace his steps, I can find the scroll. I should go to The Merchants Inn in the Imperial City to see if anyone remembers seeing him there.",
+          "ResultScript": {
+            "MetadataSummary": {
+              "Type": "Quest"
+            }
+          }
+        }
+      ]
     }
   ],
   "Targets": [
     {
       "Data": {
-        "Target": "003F51:GMN_01.esp",
+        "Target": "00F123:GMN_01.esp",
         "Flags": [
           "0x20000",
-          "0x40000",
           "0x80000",
           "0x100000",
-          "0x1000000",
           "0x4000000",
           "0x8000000",
           "0x10000000"
         ]
       },
       "Conditions": [
+        {
+          "Fluff": "0x000000",
+          "ComparisonValue": 30.0,
+          "Function": "GetStage",
+          "FirstParameter": 16812644
+        }
+      ]
+    },
+    {
+      "Data": {
+        "Target": "003F51:GMN_01.esp",
+        "Flags": [
+          "0x20000",
+          "0x80000",
+          "0x100000",
+          "0x4000000",
+          "0x8000000",
+          "0x10000000"
+        ]
+      },
+      "Conditions": [
+        {
+          "Fluff": "0x000000",
+          "Function": "GetItemCount",
+          "FirstParameter": 16830119
+        },
         {
           "Fluff": "0x000000",
           "ComparisonValue": 20.0,
